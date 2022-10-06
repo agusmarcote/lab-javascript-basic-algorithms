@@ -7,6 +7,9 @@ const hacker1Cap = hacker1.toUpperCase()
 let hacker1space = ''
 let hacker2back = ''
 
+console.log(`The driver's name is ${hacker1}`)
+console.log(`The navigator's name is ${hacker2}`)
+
 
 // Iteration 2: Conditionals
 
@@ -24,9 +27,9 @@ if ((hacker1.length) > (hacker2.length)){
 
 // Iteration 3: Loops
 
-for (let i = 0; i < (hacker1Cap.length); i++){    
+for (let i = 0; i < hacker1Cap.length; i++){    
     const letter = hacker1Cap[i]
-    hacker1space += (letter + " ")    
+    hacker1space += letter + " "    
 }
 
 console.log(hacker1space)
